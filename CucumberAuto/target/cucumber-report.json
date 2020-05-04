@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate First Name field",
+        "description": "",
+        "id": "create-facebook-account;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7095803100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User needs to be on Facebook Login Page",
+            "match": {
+              "location": "MyFirstStepDef.user_needs_to_be_on_Facebook_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175515900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MyFirstStepDef.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29250500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User checks if first name is present",
+            "match": {
+              "location": "MyFirstStepDef.user_checks_if_first_name_is_present()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Facebook Account",
+    "description": "As a user you need to open Facebook Homepage and do the validations",
+    "id": "create-facebook-account",
+    "keyword": "Feature",
+    "uri": "MyFirstFeature.feature"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Validate First Name field",
+        "description": "",
+        "id": "create-facebook-account9;validate-first-name-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6536448200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User needs to be on Facebook Login Page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_needs_to_be_on_Facebook_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1203868000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1060511400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User checks if first name is present",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_checks_if_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 662116500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browser",
+            "match": {
+              "location": "MultipleScenarioStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Validate create user multiple fields",
+        "description": "",
+        "id": "create-facebook-account9;validate-create-user-multiple-fields",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5402889100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User needs to be on Facebook Login Page",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_needs_to_be_on_Facebook_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1241234800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters user first name",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_enters_user_first_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1149488600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters user surname",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_enters_user_surname()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1044990200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User checks if first name is present",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_checks_if_first_name_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1028898500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Mobile field should be blank",
+            "match": {
+              "location": "MultipleScenarioStepDef.user_mobile_field_should_be_blank()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 642510500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "MultipleScenarioStepDef.close_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Facebook Account9",
+    "description": "As a user you need to open Facebook Homepage and do the validations",
+    "id": "create-facebook-account9",
+    "keyword": "Feature",
+    "uri": "MultipleScenarioFF.feature"
+  }
+]
